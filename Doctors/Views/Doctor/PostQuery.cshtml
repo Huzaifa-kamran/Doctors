@@ -1,0 +1,29 @@
+@model DoctorsWebForum.Models.Query
+
+@{
+    ViewData["Title"] = "Post Query";
+}
+
+<h2>Post a New Query</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="Post" asp-controller="Query" method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Content</label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

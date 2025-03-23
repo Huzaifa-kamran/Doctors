@@ -1,0 +1,96 @@
+@model DoctorsWebForum.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Doctor Registration</h4>
+                </div>
+                <div class="card-body">
+
+                    <!-- Registration Form -->
+                    <form asp-action="Register" method="post">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name:</label>
+                            <input asp-for="FullName" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email:</label>
+                            <input asp-for="Email" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password:</label>
+                            <input asp-for="Password" type="password" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Specialization:</label>
+                            <input asp-for="Specialization" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Location:</label>
+                            <input asp-for="Location" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Experience (Years):</label>
+                            <input asp-for="Experience" type="number" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Contact Details:</label>
+                            <input asp-for="ContactDetails" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Qualifications:</label>
+                            <input asp-for="Qualifications" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Achievements:</label>
+                            <input asp-for="Achievements" class="form-control" />
+                        </div>
+                        <div class="form-check mb-3">
+                            <input asp-for="IsProfilePublic" type="checkbox" class="form-check-input" />
+                            <label class="form-check-label">Make Profile Public</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Register</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for messages -->
+<div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="messageModalLabel">Message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                @TempData["SuccessMessage"]
+                @TempData["ErrorMessage"]
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var hasMessage = '@TempData["SuccessMessage"]' || '@TempData["ErrorMessage"]';
+            if (hasMessage && hasMessage.length > 0) {
+                var messageModal = new bootstrap.Modal(document.getElementById('messageModal'));
+                messageModal.show();
+            }
+        });
+    </script>
+}

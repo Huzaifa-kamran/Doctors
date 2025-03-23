@@ -1,0 +1,36 @@
+@model IEnumerable<DoctorsWebForum.Models.Query>
+
+@{
+    ViewData["Title"] = "All Queries";
+}
+
+<h2>All Queries</h2>
+
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Posted By</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var query in Model)
+        {
+            <tr>
+                <td>@query.Title</td>
+                <td>@query.Content</td>
+                <td>@(query.Doctor != null ? query.Doctor.FullName : "Unknown")</td>
+                <td>@query.PostedOn.ToString("dd-MMM-yyyy")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No queries posted yet.</p>
+}

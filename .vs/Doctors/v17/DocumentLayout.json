@@ -1,0 +1,319 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a\\Desktop\\Doctors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\doctor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\doctor\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\doctor\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\doctor\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\doctor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\doctor\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\migrations\\20250321183559_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\migrations\\20250321183559_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\data\\doctorsforumcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\data\\doctorsforumcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|c:\\users\\a\\desktop\\doctors\\doctors\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD990EC8-03D5-480E-AA79-18EFD9FBB1C0}|Doctors\\Doctors.csproj|solutionrelative:doctors\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Register.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Doctor\\Register.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Register.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Doctor\\Register.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:43:20.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Doctors\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Doctors\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAkwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T19:36:47.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:33:38.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Doctors\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Doctors\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvx4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T19:53:55.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Search.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Doctor\\Search.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Search.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Doctor\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T19:43:49.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Login.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Doctor\\Login.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Doctor\\Login.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Doctor\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Doctors\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Doctors\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-23T19:45:05.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Doctors\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Doctors\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:32:29.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Program.cs",
+              "RelativeDocumentMoniker": "Doctors\\Program.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Program.cs",
+              "RelativeToolTip": "Doctors\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:19:22.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250321183559_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Migrations\\20250321183559_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Doctors\\Migrations\\20250321183559_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Migrations\\20250321183559_InitialCreate.cs",
+              "RelativeToolTip": "Doctors\\Migrations\\20250321183559_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:36:00.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\appsettings.json",
+              "RelativeDocumentMoniker": "Doctors\\appsettings.json",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\appsettings.json",
+              "RelativeToolTip": "Doctors\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T18:19:22.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:47:29.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorsForumContext.cs",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Data\\DoctorsForumContext.cs",
+              "RelativeDocumentMoniker": "Doctors\\Data\\DoctorsForumContext.cs",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Data\\DoctorsForumContext.cs",
+              "RelativeToolTip": "Doctors\\Data\\DoctorsForumContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T18:19:22.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Doctors\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Doctors\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T18:19:22.889Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
