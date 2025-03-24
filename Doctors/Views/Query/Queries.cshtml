@@ -1,4 +1,4 @@
-@model IEnumerable<DoctorsWebForum.Models.Query>
+﻿@model IEnumerable<DoctorsWebForum.Models.Query>
 
 @{
     ViewData["Title"] = "All Queries";
@@ -18,15 +18,15 @@
             </tr>
         </thead>
         <tbody>
-        @foreach (var query in Model)
-        {
-            <tr>
-                <td>@query.Title</td>
-                <td>@query.Content</td>
-                <td>@(query.Doctor != null ? query.Doctor.FullName : "Unknown")</td>
-                <td>@query.PostedOn.ToString("dd-MMM-yyyy")</td>
-            </tr>
-        }
+            @foreach (var query in Model)
+            {
+                <tr>
+                    <td>@query.Title</td>
+                    <td>@query.Content</td>
+                    <td>@(query.Doctor != null ? query.Doctor.FullName : "Unknown")</td>
+                    <td>@query.PostedOn.ToString("dd-MMM-yyyy")</td>
+                </tr>
+            }
         </tbody>
     </table>
 }

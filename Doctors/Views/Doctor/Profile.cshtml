@@ -1,3 +1,24 @@
-@{ ViewData["Title"] = "Profile"; }
-<h2>Profile</h2>
-<p>This is the Profile page.</p>
+@model DoctorsWebForum.Models.Doctor
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4>My Profile</h4>
+        </div>
+        <div class="card-body">
+            <p><strong>Full Name:</strong> @Model.FullName</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Specialization:</strong> @Model.Specialization</p>
+            <p><strong>Location:</strong> @Model.Location</p>
+            <p><strong>Experience:</strong> @Model.Experience years</p>
+            <p><strong>Contact Details:</strong> @(Model.IsProfilePublic ? Model.ContactDetails : "Private")</p>
+            <p><strong>Qualifications:</strong> @Model.Qualifications</p>
+            <p><strong>Achievements:</strong> @Model.Achievements</p>
+
+            <a class="btn btn-primary mt-3" href="@Url.Action("EditProfile", "Doctor")">Edit Profile</a>
+        </div>
+    </div>
+</div>

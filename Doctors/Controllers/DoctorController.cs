@@ -72,10 +72,11 @@ namespace DoctorsWebForum.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Check if user exists
                 var doctor = _context.Doctors.FirstOrDefault(d => d.Email == model.Email && d.Password == model.Password);
                 if (doctor != null)
                 {
-                    // Set authentication cookie
+                    // Create claims
                     var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, doctor.FullName),
@@ -86,23 +87,28 @@ namespace DoctorsWebForum.Controllers
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var principal = new ClaimsPrincipal(identity);
 
+                    // Sign-in
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
+                    // Track logged-in users (Optional)
                     HomeController.IncrementLoggedInUser();
 
                     TempData["SuccessMessage"] = "Logged in successfully!";
                     return RedirectToAction("Index", "Home");
-
                 }
-                TempData["ErrorMessage"] = "Invalid Email or Password!";
+                else
+                {
+                    // Invalid credentials
+                    TempData["ErrorMessage"] = "Invalid Email or Password!";
+                }
             }
-            return View(model);
-        }
+            else
+            {
+                // Model validation failed
+                TempData["ErrorMessage"] = "Please fill in all required fields.";
+            }
 
-        public IActionResult Queries()
-        {
-            var queries = _context.Queries.Include(q => q.Doctor).ToList();
-            return View(queries);
+            return View(model);
         }
 
         [HttpPost]
@@ -117,6 +123,68 @@ namespace DoctorsWebForum.Controllers
             return RedirectToAction("Index", "Home");
 
         }
+
+        public IActionResult Profile()
+        {
+            // Get logged-in doctor id
+            var doctorId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == "DoctorId")?.Value ?? "0");
+
+            var doctor = _context.Doctors.FirstOrDefault(d => d.Id == doctorId);
+            if (doctor == null)
+            {
+                TempData["ErrorMessage"] = "Doctor not found.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(doctor);
+        }
+
+        [HttpGet]
+        public IActionResult EditProfile()
+        {
+            var doctorId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == "DoctorId")?.Value ?? "0");
+
+            var doctor = _context.Doctors.FirstOrDefault(d => d.Id == doctorId);
+            if (doctor == null)
+            {
+                TempData["ErrorMessage"] = "Doctor not found.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(doctor);
+        }
+
+        [HttpPost]
+        public IActionResult EditProfile(Doctor model)
+        {
+            var doctor = _context.Doctors.FirstOrDefault(d => d.Id == model.Id);
+            if (doctor != null)
+            {
+                doctor.FullName = model.FullName;
+                doctor.Specialization = model.Specialization;
+                doctor.Location = model.Location;
+                doctor.Experience = model.Experience;
+                doctor.ContactDetails = model.ContactDetails;
+                doctor.Qualifications = model.Qualifications;
+                doctor.Achievements = model.Achievements;
+                doctor.IsProfilePublic = model.IsProfilePublic;
+
+                _context.SaveChanges();
+
+                TempData["SuccessMessage"] = "Profile updated successfully!";
+                return RedirectToAction("Profile");
+            }
+
+            TempData["ErrorMessage"] = "Profile update failed!";
+            return View(model);
+        }
+
+
+      
+       
+
+
+
 
 
     }

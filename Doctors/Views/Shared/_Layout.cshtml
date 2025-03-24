@@ -22,10 +22,14 @@
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Home")">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Queries", "Doctor")">Queries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Queries", "Query")">Queries</a></li>
 
                     @if (User.Identity.IsAuthenticated)
                     {
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Profile", "Doctor")">My Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("EditProfile", "Doctor")">Edit Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("Post", "Query")">Post Query</a></li>
+
                         <li class="nav-item">
                             <form asp-action="Logout" asp-controller="Doctor" method="post" class="d-inline">
                                 @Html.AntiForgeryToken()
@@ -42,7 +46,6 @@
                     <li class="nav-item"><a class="nav-link" href="@Url.Action("Dashboard", "Admin")">Admin</a></li>
 
                 </ul>
-
             </div>
         </div>
     </nav>

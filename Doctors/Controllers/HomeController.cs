@@ -20,8 +20,6 @@ namespace DoctorsWebForum.Controllers
             ViewBag.LoggedInUsers = _loggedInUsersCount;
             return View();
         }
-
-        // Increment logged-in count on successful login
         public static void IncrementLoggedInUser() => _loggedInUsersCount++;
 
         // Decrement on logout

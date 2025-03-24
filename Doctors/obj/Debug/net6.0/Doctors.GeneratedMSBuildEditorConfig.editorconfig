@@ -38,24 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/EditProfile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEVkaXRQcm9maWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/PostQuery.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBvc3RRdWVyeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFByb2ZpbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Queries.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFF1ZXJpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Register.cshtml]
@@ -72,6 +60,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/a/Desktop/Doctors/Doctors/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/Desktop/Doctors/Doctors/Views/Query/Post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlcnlcUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/Desktop/Doctors/Doctors/Views/Query/Queries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlcnlcUXVlcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/a/Desktop/Doctors/Doctors/Views/Shared/Error.cshtml]

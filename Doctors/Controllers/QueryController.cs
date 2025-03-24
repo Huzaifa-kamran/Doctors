@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using DoctorsWebForum.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Doctors.Controllers
 {
@@ -20,20 +21,36 @@ namespace Doctors.Controllers
         [HttpPost]
         public IActionResult Post(Query model)
         {
+            var doctorIdClaim = User.Claims.FirstOrDefault(c => c.Type == "DoctorId");
+
+            if (doctorIdClaim == null)
+            {
+                TempData["ErrorMessage"] = "You must be logged in to post a query!";
+                return RedirectToAction("Login", "Doctor");
+            }
+
             if (ModelState.IsValid)
             {
-                // For demo, assigning static DoctorId (you should link to logged-in user in real)
-                model.DoctorId = 1;
+                var doctorId = int.Parse(doctorIdClaim.Value);
+
+                model.DoctorId = doctorId;
                 model.PostedOn = DateTime.Now;
 
                 _context.Queries.Add(model);
                 _context.SaveChanges();
 
                 TempData["SuccessMessage"] = "Query posted successfully!";
-                return RedirectToAction("Queries", "Doctor");
+                return RedirectToAction("Queries");
             }
+
             TempData["ErrorMessage"] = "Failed to post query.";
-            return View(model);
+            return View("Post", model);
+        }
+
+        public IActionResult Queries()
+        {
+            var queries = _context.Queries.Include(q => q.Doctor).ToList();
+            return View(queries);
         }
     }
 }
