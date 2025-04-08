@@ -9,83 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Doctors
 build_property.RootNamespace = Doctors
-build_property.ProjectDir = C:\Users\a\Desktop\Doctors\Doctors\
+build_property.ProjectDir = C:\Users\a\Desktop\eProject\Doctors\Doctors\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\a\Desktop\Doctors\Doctors
+build_property.MSBuildProjectDirectory = C:\Users\a\Desktop\eProject\Doctors\Doctors
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Account/Login.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Account/Register.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Admin/Dashboard.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Admin/Index.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Admin/ManageUsers.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Admin/ManageUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Login.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Doctor/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Profile.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Doctor/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Register.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Doctor/ProfileEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFByb2ZpbGVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Doctor/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Doctor/Search.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Doctor/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Home/Index.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Home/Privacy.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Query/Post.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Query/Post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlcnlcUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Query/Queries.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Query/Queries.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlcnlcUXVlcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Shared/Error.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/_ViewImports.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/_ViewStart.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/a/Desktop/Doctors/Doctors/Views/Shared/_Layout.cshtml]
+[C:/Users/a/Desktop/eProject/Doctors/Doctors/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nc6ginhlw0

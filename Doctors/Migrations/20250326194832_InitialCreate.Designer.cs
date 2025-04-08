@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Doctors.Migrations
 {
     [DbContext(typeof(DoctorsForumContext))]
-    [Migration("20250321183559_InitialCreate")]
+    [Migration("20250326194832_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -124,6 +124,36 @@ namespace Doctors.Migrations
                     b.ToTable("Queries");
                 });
 
+            modelBuilder.Entity("Reply", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QueryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RepliedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReplyText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("QueryId");
+
+                    b.ToTable("Replies");
+                });
+
             modelBuilder.Entity("DoctorsWebForum.Models.Query", b =>
                 {
                     b.HasOne("DoctorsWebForum.Models.Doctor", "Doctor")
@@ -133,6 +163,30 @@ namespace Doctors.Migrations
                         .IsRequired();
 
                     b.Navigation("Doctor");
+                });
+
+            modelBuilder.Entity("Reply", b =>
+                {
+                    b.HasOne("DoctorsWebForum.Models.Doctor", "Doctor")
+                        .WithMany()
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoctorsWebForum.Models.Query", "Query")
+                        .WithMany("Replies")
+                        .HasForeignKey("QueryId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("Query");
+                });
+
+            modelBuilder.Entity("DoctorsWebForum.Models.Query", b =>
+                {
+                    b.Navigation("Replies");
                 });
 #pragma warning restore 612, 618
         }

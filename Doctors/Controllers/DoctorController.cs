@@ -140,7 +140,7 @@ namespace DoctorsWebForum.Controllers
         }
 
         [HttpGet]
-        public IActionResult EditProfile()
+        public IActionResult ProfileEdit()
         {
             var doctorId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == "DoctorId")?.Value ?? "0");
 

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace DoctorsWebForum.Models
@@ -17,7 +17,10 @@ namespace DoctorsWebForum.Models
         public DateTime PostedOn { get; set; } = DateTime.Now;
 
         public int DoctorId { get; set; }
-        [ValidateNever] 
+        [ValidateNever]
         public Doctor Doctor { get; set; }
+
+        //  Add this navigation property for replies
+        public List<Reply> Replies { get; set; } = new List<Reply>();
     }
 }

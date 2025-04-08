@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JAE/MGnXUyk=",
+  "dgSpecHash": "5HCDQX8VnMo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Doctors.csproj",
+  "projectFilePath": "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\Doctors.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

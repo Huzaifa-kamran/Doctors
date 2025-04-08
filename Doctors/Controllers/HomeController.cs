@@ -16,10 +16,13 @@ namespace DoctorsWebForum.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.TotalUsers = _context.Doctors.Count();
+            var doctorsCount = _context.Doctors.ToList().Count;  // Forces data retrieval
+            ViewBag.TotalUsers = doctorsCount;
             ViewBag.LoggedInUsers = _loggedInUsersCount;
+
             return View();
         }
+
         public static void IncrementLoggedInUser() => _loggedInUsersCount++;
 
         // Decrement on logout

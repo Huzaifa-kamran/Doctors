@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Doctors.csproj": {}
+    "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\Doctors.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Doctors.csproj": {
+    "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\Doctors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Doctors.csproj",
+        "projectUniqueName": "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\Doctors.csproj",
         "projectName": "Doctors",
-        "projectPath": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\Doctors.csproj",
+        "projectPath": "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\Doctors.csproj",
         "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a\\Desktop\\Doctors\\Doctors\\obj\\",
+        "outputPath": "C:\\Users\\a\\Desktop\\eProject\\Doctors\\Doctors\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",

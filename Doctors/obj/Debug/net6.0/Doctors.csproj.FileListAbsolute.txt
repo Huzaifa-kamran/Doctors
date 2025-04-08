@@ -323,3 +323,4 @@ C:\Users\asp\Desktop\Doctors\Doctors\obj\Debug\net6.0\scopedcss\projectbundle\Do
 C:\Users\asp\Desktop\Doctors\Doctors\obj\Debug\net6.0\Doctors.csproj.CopyComplete
 C:\Users\asp\Desktop\Doctors\Doctors\obj\Debug\net6.0\Doctors.genruntimeconfig.cache
 C:\Users\asp\Desktop\Doctors\Doctors\obj\Debug\net6.0\ref\Doctors.dll
+C:\Users\a\Desktop\Doctors\Doctors\obj\Debug\net6.0\Doctors.sourcelink.json
